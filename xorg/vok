@@ -27,7 +27,7 @@ xkb_symbols "basic" {
 
     name[Group1]= "vok";
 
-    key <TLDE> {	[     grave,	asciitilde,	NoSymbol,	dead_abovering	]	};
+    key <TLDE> {	[asciitilde,	grave,		NoSymbol,	dead_abovering	]	};
     key <AE01> {	[	  1,	exclam,		NoSymbol,	NoSymbol	]	};
     key <AE02> {	[	  2,	at,		ecaron,		Ecaron		]	};
     key <AE03> {	[	  3,	numbersign,	scaron,		Scaron		]	};
@@ -81,7 +81,7 @@ xkb_symbols "basic" {
 
     key <LSGT> {	[ backslash,	bar,		ssharp,		dead_doubleacute]	};
     
-    key <SPCE> {	[     space,    U00A0,         U2009,		space		]	};
+    key <SPCE> {	[     space,    NoSymbol,         NoSymbol,		space		]	};
 
 };
 
@@ -120,7 +120,7 @@ xkb_symbols "czech" {
 
     key <AD01> {	[	  q,	Q, 		backslash,	bar		]	};
 
-    key <BKSL> {	[     uring,	uacute,		dead_diaeresis,	dead_circumflex	]	};
+    key <BKSL> {	[ backslash,  bar,		uring,		uacute	]	};
 };
 
 partial alphanumeric_keys
