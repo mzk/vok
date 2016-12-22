@@ -1,1 +1,1 @@
-# Klávesnice Pro windows, linxu a mac
+# Klávesnice Pro windows, linux a mac
